@@ -10,7 +10,7 @@ export const TodoContext = createContext({
         }
     ],
     // now create a method and dont define them we will define them in our app.jsx file 
-    addTodd: (todo) => {},
+    addTodo: (todo) => {},
     updateTodo: (id, todo) =>{},
     deleteTodo: (id) =>{},
     toggleComplete: (id) => {}
